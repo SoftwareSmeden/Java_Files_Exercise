@@ -1,0 +1,63 @@
+Opgave 1)
+a)	Indlæs 10 heltal fra tastatur og gem dem i et array.
+
+b)	Implementer en funktion udskriv, som modtager et array af integers og en integer med antallet af data i arrayet. Funktionen skal printe indholdet af arrayet til skærm. Kald funktionen fra main.
+
+c)	Implementer en funktion gennemsnit, som modtager et array af integers og en integer med antallet af data i arrayet Funktionen skal returnere gennemsnittet af disse integers i arrayet. Kald funktionen fra main.
+
+
+
+Opgave 2)
+a)	Opret en textfil “MinFil.txt”, hvor der skrives 10 integers i. 
+
+b)	Lav et program, som kan indlæse (med Scanner) de 10 integer fra “MinFil.txt” i et integerarray.
+
+c)	Kald funktionen udskriv fra opgave 1 for at printe indholdet af arrayet til skærmen.
+
+d)	Kald funktionen gennemsnit fra opgave 1, og udskriv gennemsnittet til skærm.
+
+e)	Læg 10 til alle tallene i arrayet, og udskriv nu arrayets indhold (med Scanner) til en textfil “MinFil1.txt”.
+
+
+
+Opgave 3)
+a)	Udvid programmet fra opgave 2. Lav en funktion som modtager arrayet med de 10 integers og en integer med antallet af data i arrayet. Funktionen skal udskrive arrayets indhold til en datafil (“MinFil3.dat”) med FileOutputStream. Kald funktionen fra main.
+
+b)	Lav en funktion som kan læse hvad der ligger i filen “MinFil3.dat” med FileInputStream, i et array og udskrive arrayets indhold til skærmen.
+
+
+
+
+Opgave 4)
+a)	Opret en textfil “persondata.txt” og skriv følgende i filen:
+    1 Pernille 12.50 2 Peter 22.75 3 Christian 2 30.10
+
+b)	Lav et program hvor der oprettes et array af typen String, et array af integers og et array af typen float. Indlæs dataene fra filen “persondata.txt” i de 3 arrays med input fra textfil med Scanner.
+
+c)	Lav en funktion udskriv, som kan modtage et array af integers, et array af Strings og et array af floats og en integer med antallet af data i hvert array. Funktionen skal udskrive indholdet af de 3 arrays til skærm.
+
+d)	Lav en funktion, som modtager de 3 arrays og en integer med antallet af data i hvert array. Indholdet af de 3 arrays skrives til en datafil “MinFil4.dat” med DataOutputStream. 
+    Rækkefølgen af uddata skal være: 1 Pernille 12.50 2 Peter 22.75 3 Christian 30.10.
+
+e)	Lav en funktion, som kan læse med DataInputStream de data der ligger i  “MinFil4.dat”. Dataene skal lægges i 3 forskellige arrays.
+
+f)	Kald funktionen udskriv, for at printe indholdet af de 3 arrays til skærmen.
+
+
+
+Opgave 5)
+a)	Opret en klasse Person med private attributter nr (integer), navn (String) tal (float), og implementer konstruktør samt set og get funktioner.
+
+b)	Erklær i main 3 Person-objekter og giv de 3 objekter værdierne fra textfilen “persondata.txt”. Benyt enten konstruktør eller set funktionerne.
+
+c)	Lav en funktion udskriv, som modtager et Person-objekt og som udskriver objektets attribut-værdier til skærm. Kald funktionen i main.
+
+d)	Erklær et array af typen Person, og læg de 3 objekter i dette array.
+
+e)	Lav en funktion UdskrivPersoner, som modtager et array af typen Person, og en integer med antallet af Person-objekter i arrayet. Funktionen skal udskrive alle person-objekters data til skærm. Kald funktionen i main.
+
+f)	Lav en funktion UdskrivTilFil, som modtager et array af Person-objekter, , og en integer med antallet af Person-objekter i arrayet. Funktionen skal udskrive objekterne til en fil ”personer.ser” med ObjectOutputStream. Kald funktionen i main.
+
+g)	Lav en funktion IndFraFil, som indlæser  objekterne fra “personer.ser” med ObjectInputStream i et array af typen Person. Kald herefter funktionen UdskrivPersoner.
+
+
